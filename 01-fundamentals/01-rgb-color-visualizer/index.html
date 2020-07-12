@@ -7,15 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <input type="range" min="0" max="255" class="range range__red" value="0" name="red">
-    <input type="text" class="counter counter__red" disabled name="red">
+    <form class="form">
+        <label for="red">(R) Vermelho</label>
+        <input type="range" min="0" max="255" class="range" value="0" name="red">
+        <input type="text" class="counter counter__red" disabled value="0" name="red">
+    </form>
     
-    <input type="range" min="0" max="255" class="range range__green" value="0" name="green">
-    <input type="text" class="counter counter__green" disabled name="green">
-
-    <input type="range" min="0" max="255" class="range range__blue" value="0" name="blue">
-    <input type="text" class="counter counter__blue" disabled name="blue">
+    <form class="form">
+        <label for="green">(G) Verde</label>
+        <input type="range" min="0" max="255" class="range" value="0" name="green">
+        <input type="text" class="counter counter__green" disabled value="0" name="green">
+    </form>
+    
+    <form class="form">
+        <label for="blue">(B) Azul</label>
+        <input type="range" min="0" max="255" class="range" value="0" name="blue">
+        <input type="text" class="counter counter__blue" disabled value="0" name="blue">
+    </form>
 
     <div class="color"></div>
 
